@@ -1,0 +1,82 @@
+* {
+  user-select: none;
+}
+body {
+  background-color: rgba(0, 0, 0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  width: 25.4166666667vh;
+  height: 25.4166666667vh;
+  transform: rotate(85deg);
+}
+#background {
+  fill: none;
+  stroke: rgba(217, 217, 217, 0.35);
+  stroke-width: 0.6vw;
+  transform-origin: center;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+}
+#Spot {
+  fill: none;
+  filter: drop-shadow(0px 0px 4px rgba(255, 255, 0, 0.36));
+  stroke: rgb(255, 255, 0);
+  stroke-width: 0.45vw;
+  transform-origin: center;
+  stroke-dasharray: 1550;
+  stroke-dashoffset: 1250;
+  stroke-linecap: round;
+}
+#Player {
+  fill: none;
+  filter: drop-shadow(0px 0px 8px rgba(0, 255, 102, 0.46));
+  stroke: rgba(0, 255, 102, 0.74);
+  stroke-width: 0.45vw;
+  transform-origin: center;
+  stroke-dasharray: 1550;
+  stroke-dashoffset: 1500;
+  stroke-linecap: round;
+}
+.Texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 7.4166666667vh;
+  margin-bottom: 20vh;
+  height: 25.4166666667vh;
+  font-family: 'Montserrat';
+  font-style: normal;
+  gap: 3px;
+}
+.Wraper {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  margin-left: 3vh;
+}
+.Rounds {
+  color:rgb(255, 255, 0);
+  font-size: 75px;
+}
+.Speed {
+  color:rgba(0, 255, 102, 0.8);
+  font-size: 50px;
+  padding-bottom: 3px;
+}
+.Fails {
+  color:rgba(255, 0, 0, 0.8);
+  font-size: 25px;
+  padding-bottom: 8px;
+}
+.Description {
+  color: rgba(217, 217, 217, 0.15);
+  font-size: 12px;
+  padding-bottom: 8px;
+}
